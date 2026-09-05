@@ -329,15 +329,22 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
           <p className="text-xs text-slate-400">
             Toggle educational measurement overlays and coordinate annotations in the 3D scene:
           </p>
+
+          <p className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold mt-1">
+            Instrument Anatomy
+          </p>
           <label className="toggle-checkbox">
             <input
               type="checkbox"
               checked={guides.showLabels}
               onChange={(e) => onGuidesChange({ ...guides, showLabels: e.target.checked })}
             />
-            <span>Show 3D Component Anatomical Labels</span>
+            <span>Show 3D Component Anatomical Labels (Phalaka, Paṭṭikā, Śaṅku, Avalambaka)</span>
           </label>
 
+          <p className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold mt-2">
+            Geometry Construction (Optional Overlay)
+          </p>
           <label className="toggle-checkbox">
             <input
               type="checkbox"
@@ -353,7 +360,7 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
               checked={guides.showProjections}
               onChange={(e) => onGuidesChange({ ...guides, showProjections: e.target.checked })}
             />
-            <span>Show Right-Triangle Projections (Opposite / Adjacent)</span>
+            <span>Show Right-Triangle Projections (Jyā / Koṭijyā)</span>
           </label>
 
           <label className="toggle-checkbox">

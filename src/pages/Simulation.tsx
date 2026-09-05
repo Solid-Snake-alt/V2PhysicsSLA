@@ -20,10 +20,13 @@ export const Simulation: React.FC = () => {
   const [indexAngle, setIndexAngle] = useState<number>(66.8); // Default near equinox noon altitude
 
   // Visual Guides State
+  // Default: physical-component anatomy labels visible; mathematical/geometry
+  // construction overlays (angle arc, triangle legs) start hidden to keep the
+  // instrument uncluttered. Users can enable them from the "Guides" tab.
   const [guides, setGuides] = useState<VisualGuidesConfig>({
     showLabels: true,
-    showAngles: true,
-    showProjections: true,
+    showAngles: false,
+    showProjections: false,
     showSunRay: true,
     showShadow: true,
     showGrid: false,
@@ -69,8 +72,8 @@ export const Simulation: React.FC = () => {
     setIndexAngle(66.8);
     setGuides({
       showLabels: true,
-      showAngles: true,
-      showProjections: true,
+      showAngles: false,
+      showProjections: false,
       showSunRay: true,
       showShadow: true,
       showGrid: false,
