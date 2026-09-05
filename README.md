@@ -1,3 +1,5 @@
+https://v2physicssla.pages.dev/
+
 # Phalaka Yantra (फलक यंत्र) — Interactive Astronomical Instrument Simulation
 
 An interactive 3D educational simulation and reconstruction of the historical Indian astronomical instrument known as the **Phalaka Yantra**, designed by the renowned mathematician and astronomer **Bhāskarācārya (Bhāskara II, c. 1114–1185 CE)** in the *Yantrādhyāya* (Chapter on Astronomical Instruments) of his 1150 CE treatise *Siddhānta-śiromaṇi*.
