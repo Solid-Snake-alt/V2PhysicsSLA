@@ -425,6 +425,36 @@ h1, h2, h3, h4, .font-serif {
   width: 100%;
 }
 
+/* Dedicated 3D viewport sizing.
+   Do not use Tailwind arbitrary height utilities here because this project
+   uses a custom CSS utility layer rather than Tailwind itself. */
+.phalaka-canvas {
+  position: relative;
+  width: 100%;
+  height: clamp(520px, 62vh, 680px);
+  min-height: 520px;
+  max-height: 680px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(51, 65, 85, 0.6);
+  background: #090d16;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 1100px) {
+  .phalaka-canvas {
+    height: 560px;
+    max-height: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .phalaka-canvas {
+    height: 460px;
+    min-height: 460px;
+  }
+}
+
 .simulation-sidebar-col {
   display: flex;
   flex-direction: column;

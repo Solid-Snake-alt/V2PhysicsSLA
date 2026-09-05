@@ -69,7 +69,7 @@ export const PhalakaCanvas: React.FC<PhalakaCanvasProps> = ({
   };
 
   return (
-    <div className="relative w-full h-[580px] lg:h-[680px] rounded-lg overflow-hidden border border-slate-700/60 bg-[#090d16] shadow-2xl">
+    <div className="phalaka-canvas">
       {/* 3D WebGL Canvas */}
       <Canvas
         shadows
