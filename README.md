@@ -147,5 +147,5 @@ npm run preview
 4. **Subbarayappa, B.V. & Sarma, K.V.** (1985). *Indian Astronomy: A Source-Book*. Nehru Centre, Bombay.
 5. **Meeus, Jean** (1998). *Astronomical Algorithms* (2nd Edition). Willmann-Bell, Richmond, Virginia.
 
-
+v2physicssla.pages.dev
 ....
