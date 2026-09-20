@@ -34,11 +34,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
             </div>
           </div>
           <div>
-            <div className="font-serif font-bold text-base tracking-wider text-amber-200">
+            <div className="font-serif font-bold text-base tracking-wider text-rose-400">
               PHALAKA YANTRA
             </div>
-            <div className="text-xs text-slate-400 font-medium tracking-wide uppercase">
-              फलक यंत्र • Bhāskara II (1150 CE)
+            <div className="text-xs text-purple-300 font-medium tracking-wide uppercase">
+              Bhāskara II (1150 CE)
             </div>
           </div>
         </button>
@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
                 onClick={() => handleNav(item.id)}
                 className={`navbar-nav-item ${isActive ? 'active' : ''}`}
               >
-                <Icon className={`w-4 h-4 ${isActive ? 'text-amber-400' : 'text-slate-400'}`} />
+                <Icon className={`w-4 h-4 ${isActive ? 'text-emerald-400' : 'text-slate-400'}`} />
                 <span>{item.label}</span>
               </button>
             );

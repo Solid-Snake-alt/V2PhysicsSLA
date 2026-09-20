@@ -159,15 +159,15 @@ export const Simulation: React.FC = () => {
 
       {/* Sanskrit Instrument Anatomy & Terminology Bar */}
       <div className="museum-card flex flex-col gap-3">
-        <h3 className="font-serif text-sm font-bold text-amber-200 uppercase tracking-wider">
-          Phalaka Yantra Anatomical Reference (यन्त्र परिभाषा)
+        <h3 className="font-serif text-sm font-bold text-rose-400 uppercase tracking-wider">
+          Phalaka Yantra Anatomical Reference
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 text-xs">
           {GLOSSARY_TERMS.slice(0, 5).map((term) => (
             <div key={term.transliteration} className="bg-slate-900 p-3 rounded border border-slate-800">
               <div className="text-amber-400 font-bold font-serif">{term.sanskrit} ({term.transliteration})</div>
               <div className="text-slate-200 font-medium text-xs mt-0.5">{term.meaning}</div>
-              <div className="text-slate-400 text-xs mt-1 leading-relaxed">{term.historicalContext}</div>
+              <div className="text-purple-400 text-xs mt-1 leading-relaxed">{term.historicalContext}</div>
             </div>
           ))}
         </div>

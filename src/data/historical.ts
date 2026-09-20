@@ -12,12 +12,12 @@ export const PHALAKA_CONFIG: PhalakaConfig = {
   // Traditional proportions: A flat rectangular board of wood or brass.
   // Bhaskara II specifies a rectangular board having a ratio of 1:2 (typically 30 angulas high by 60 angulas wide).
   // For 3D Three.js rendering units, we normalize to convenient scene scale.
-  boardWidth: 6.0,        // corresponds to 60 units (angulas)
-  boardHeight: 3.0,       // corresponds to 30 units (angulas)
+  boardWidth: 6,        // corresponds to 60 units (angulas)
+  boardHeight: 3,       // corresponds to 30 units (angulas)
   boardThickness: 0.15,   // sturdy wooden plank with brass edge banding
-  circleRadius: 1.35,     // inscribed circular graduated ring
+  circleRadius: 1,     // inscribed circular graduated ring
   pivotOffset: { x: 0, y: 0.1, z: 0.08 },
-  indexArmLength: 1.45,   // movable sighting arm (paṭṭikā)
+  indexArmLength: 1,   // movable sighting arm (paṭṭikā)
   indexArmWidth: 0.1,
   pinLength: 0.6,         // central shadow pin (śaṅku / akṣa)
   scaleDivisions: 360,    // 360 degrees, also marked with 60 ghaṭikās (1 ghaṭikā = 6 degrees = 24 minutes)
@@ -83,6 +83,13 @@ export const HISTORICAL_LOCATIONS: GeoLocation[] = [
     longitude: -74.0060,
     timezoneOffset: -5.0,
     description: 'Western hemisphere modern comparison location.',
+  },
+ {
+    name: 'Pune, Maharastra',
+    latitude: 18.5204,
+    longitude: 73.8567,
+    timezoneOffset: 5.5,
+    description: 'Pune.',
   }
 ];
 
