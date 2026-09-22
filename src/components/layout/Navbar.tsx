@@ -12,9 +12,9 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
 
   const navItems: { id: NavigationPage; label: string; icon: React.FC<{ className?: string }> }[] = [
     { id: 'home', label: 'Home', icon: Sparkles },
-    { id: 'simulation', label: '3D Simulation', icon: Compass },
-    { id: 'geometry', label: 'Geometry & Math', icon: Triangle },
     { id: 'history', label: 'History & Verses', icon: BookOpen },
+    { id: 'geometry', label: 'Geometry & Math', icon: Triangle },
+    { id: 'simulation', label: '3D Simulation', icon: Compass },
     { id: 'about', label: 'About & Sources', icon: Info },
   ];
 
