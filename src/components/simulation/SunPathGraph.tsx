@@ -60,7 +60,7 @@ export const SunPathGraph: React.FC<SunPathGraphProps> = ({
       <div className="flex justify-between items-center text-xs">
         <span className="font-serif font-bold text-amber-200 uppercase tracking-wider flex items-center gap-1.5">
           <Sun className="w-3.5 h-3.5 text-amber-400" />
-          Daily Solar Altitude Trajectory
+           Solar Altitude Trajectory
         </span>
         <div className="flex gap-3 text-[11px] font-mono text-slate-400">
           <span className="flex items-center gap-1 text-amber-400">
@@ -68,9 +68,6 @@ export const SunPathGraph: React.FC<SunPathGraphProps> = ({
           </span>
           <span className="flex items-center gap-1 text-purple-400">
             <ArrowDown className="w-3 h-3" /> Set: {solarPosition.sunsetTime}
-          </span>
-          <span className="text-yellow-300">
-            Noon: {solarPosition.solarNoonAltitude}°
           </span>
         </div>
       </div>
@@ -218,7 +215,7 @@ export const SunPathGraph: React.FC<SunPathGraphProps> = ({
             <text
               x="45"
               y="12"
-              fill="#fde047"
+              fill="#df5910"
               fontSize="10"
               fontFamily="monospace"
               fontWeight="bold"

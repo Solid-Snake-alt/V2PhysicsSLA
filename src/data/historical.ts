@@ -155,13 +155,13 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     sanskrit: 'ज्या',
     transliteration: 'Jyā (or Ardhajyā)',
-    meaning: 'Chord-sine (R · sin θ)',
+    meaning: 'Sine-Chord (R · sin θ)',
     historicalContext: 'The classical Indian trigonometric function representing the half-chord in a circle of defined radius R (commonly R = 120 or R = 3438 minutes of arc).'
   },
   {
     sanskrit: 'कोटिज्या',
     transliteration: 'Koṭijyā',
-    meaning: 'Cosine (R · cos θ)',
+    meaning: 'Cosine-Chord (R · cos θ)',
     historicalContext: 'The sine of the complementary arc (zenith distance companion to altitude).'
   }
 ];
