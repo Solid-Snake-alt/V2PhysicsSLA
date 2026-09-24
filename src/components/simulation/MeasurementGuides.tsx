@@ -192,7 +192,7 @@ export const MeasurementGuides: React.FC<MeasurementGuidesProps> = ({
           {/* Board Label — upper-left corner, clear of the dial markings */}
           <Html position={boardLabelPos} center pointerEvents="none" zIndexRange={[80, 0]}>
             <div className="bg-slate-950/85 text-amber-200/90 text-xs px-2 py-0.5 rounded border border-amber-900/40 whitespace-nowrap">
-              <span className="font-serif font-bold">Phalaka</span> (फलक — Wooden Board)
+              <span className="font-serif font-bold">Phalaka</span> (Wooden Board)
             </div>
           </Html>
 
@@ -208,9 +208,9 @@ export const MeasurementGuides: React.FC<MeasurementGuidesProps> = ({
             gapSize={0.03}
           />
           <Html position={armLabelPos} center pointerEvents="none" zIndexRange={[80, 0]}>
-            <div className="bg-slate-950/85 text-amber-300 text-[11px] px-1.5 py-0.5 rounded border border-amber-600/40 whitespace-nowrap">
-              <span className="font-serif">Paṭṭikā</span> (पट्टिका — Index Arm)
-            </div>
+            
+              <pre> Pattika (Index Arm) </pre> 
+            
           </Html>
 
           {/* Pivot / Śaṅku — leader line from pivot to offset label below */}
@@ -225,9 +225,9 @@ export const MeasurementGuides: React.FC<MeasurementGuidesProps> = ({
             gapSize={0.03}
           />
           <Html position={pivotLabelPos} center pointerEvents="none" zIndexRange={[80, 0]}>
-            <div className="bg-slate-950/85 text-yellow-200 text-[11px] px-1.5 py-0.5 rounded border border-yellow-600/40 whitespace-nowrap">
-              <span className="font-serif">Śaṅku</span> (शङ्कु — Central Gnomon Pin)
-            </div>
+      
+              <pre>Śaṅku (Gnomon Pin) </pre>
+            
           </Html>
 
           {/* Plumb Line (Avalambaka) — leader line to the left-offset label */}
@@ -242,9 +242,7 @@ export const MeasurementGuides: React.FC<MeasurementGuidesProps> = ({
             gapSize={0.03}
           />
           <Html position={plumbLabelPos} center pointerEvents="none" zIndexRange={[80, 0]}>
-            <div className="bg-slate-950/85 text-slate-300 text-[10px] px-1.5 py-0.5 rounded border border-slate-700 whitespace-nowrap">
-              <span className="font-serif">Avalambaka</span> (अवलम्बक — Plumb Line)
-            </div>
+              <pre>Avalambaka</pre>
           </Html>
         </group>
       )}
